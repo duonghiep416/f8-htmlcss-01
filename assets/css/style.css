@@ -599,15 +599,19 @@ footer .social {
     margin-top: 40px;
 }
 
-footer .social .socail-link {
+footer .social .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 28px;
     height: 28px;
-    background-color: #eae9e9;
+    background-color: #f9f9f9;
     margin-right: 16px;
     border-radius: 3px;
+}
+
+footer .social .social-link:hover {
+    background-color: #c7c4c4;
 }
 
 footer .row-bottom {
