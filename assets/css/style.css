@@ -310,7 +310,8 @@ a {
 
 .featured .list {
     margin-top: 70px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -513,11 +514,11 @@ a {
 }
 
 /* ================Subscription =================== */
-.Subscription {
+.subscription {
     margin-top: 90px;
 }
 
-.Subscription .body {
+.subscription .body {
     height: 370px;
     background: #063183;
     border-radius: 20px;
@@ -526,20 +527,20 @@ a {
     position: relative;
 }
 
-.Subscription .info {
+.subscription .info {
     padding: 0 80px;
     width: 671px;
     max-width: 100%;
 }
 
-.Subscription .sub-title {
+.subscription .sub-title {
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.5;
     color: #ffffff;
 }
 
-.Subscription .desc {
+.subscription .desc {
     margin-top: 15px;
     font-weight: 400;
     font-size: 1.6rem;
@@ -551,14 +552,14 @@ a {
     opacity: 0.75;
 }
 
-.Subscription .btn {
+.subscription .btn {
     min-width: 151px;
     background-color: #fff;
     color: #002366;
     margin-top: 20px;
 }
 
-.Subscription .body img {
+.subscription .body img {
     position: absolute;
     bottom: 0;
     right: 221px;
@@ -574,7 +575,7 @@ footer .row {
 }
 
 footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 footer .heading {
